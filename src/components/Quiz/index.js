@@ -117,6 +117,7 @@ const Quiz = ({ data, countdownTime, endQuiz }) => {
         method: 'POST',
         headers: headers,
         body: JSON.stringify(all_answers),
+        
       });
       const res = await response.json();
       console.log(res);

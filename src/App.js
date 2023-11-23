@@ -88,7 +88,7 @@ const App = () => {
     <Layout>
       {loading && <Loader {...loadingMessage} />}
       {!loading && !isQuizStarted && !isQuizCompleted && (
-        <Main startQuiz={startQuiz} />
+        <Main startQuiz={startQuiz}   />
       )}
       {!loading && isQuizStarted && (
         <Quiz data={data} countdownTime={countdownTime} endQuiz={endQuiz} />

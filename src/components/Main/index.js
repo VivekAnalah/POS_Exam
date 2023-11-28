@@ -58,7 +58,7 @@ console.log(countdownTime&& true)
 
     if (error) setError(null);
 
-    const API = `http://localhost:8080/questions`;
+    const API = `https://pos-exam-backend.onrender.com/questions`;
 
     try{
       const res = await fetch(`${API}`);

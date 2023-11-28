@@ -105,7 +105,7 @@ const Quiz = ({ data, countdownTime, endQuiz }) => {
       user_answers
     }
 
-    const API = `http://localhost:8080/answer`;
+    const API = `https://pos-exam-backend.onrender.com/answer`;
 
     const headers = {
       'Content-Type': 'application/json',
